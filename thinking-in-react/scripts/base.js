@@ -57,12 +57,30 @@ var ProductTable = React.createClass({
 });
 
 var SearchBar = React.createClass({
+    handleChange: function() {
+        // here parent's onUserInput callback is fired whenever the state should be updated
+        this.props.onUserInput(
+            this.refs.filterTextInput.value,
+            this.refs.inStockOnlyInput.checked
+        );
+    },
     render: function () {
         return (
             <form>
-                <input type="text" placeholder="Search..." value={this.props.filterText} />
+                <input
+                    type="text"
+                    placeholder="Search..."
+                    value={this.props.filterText}
+                    ref="filterTextInput"
+                    onChange={this.handleChange}
+                />
                 <p>
-                    <input type="checkbox" checked={this.props.inStocksOnly} />
+                    <input
+                        type="checkbox"
+                        checked={this.props.inStocksOnly}
+                        ref="inStockOnlyInput"
+                        onChange={this.handleChange}
+                    />
                     {' '}
                     Only show products in stock
                 </p>
@@ -72,11 +90,17 @@ var SearchBar = React.createClass({
 });
 
 var FilterableProductTable = React.createClass({
-    getInitialState(): function() {
+    getInitialState: function() {
         return {
             filterText: '',
             inStockOnly: false
         };
+    },
+    handleUserInput: function(filterText, inStockOnly) {
+        this.setState({
+            filterText: filterText,
+            inStockOnly: inStockOnly
+        });
     },
     render: function () {
         return (
@@ -84,6 +108,7 @@ var FilterableProductTable = React.createClass({
                 <SearchBar
                     filterText={this.state.filterText}
                     inStockOnly={this.state.inStockOnly}
+                    onUserInput={this.handleUserInput}
                 />
                 <ProductTable
                     products={this.props.products}
