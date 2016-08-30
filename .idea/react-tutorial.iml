@@ -14,5 +14,10 @@
     <orderEntry type="library" name="react-dom" level="application" />
     <orderEntry type="library" name="browser" level="application" />
     <orderEntry type="library" name="react-tutorial node_modules" level="project" />
+    <orderEntry type="library" name="react" level="application" />
+    <orderEntry type="library" name="react-dom" level="application" />
+    <orderEntry type="library" name="browser" level="application" />
+    <orderEntry type="library" name="jquery" level="application" />
+    <orderEntry type="library" name="remarkable" level="application" />
   </component>
 </module>
