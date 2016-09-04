@@ -1,23 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="299408a7-3daf-4091-9e51-47e74d229951" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/redux-official-todo-list/src/actions/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/redux-official-todo-list/src/components/App.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/redux-official-todo-list/src/components/Footer.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/redux-official-todo-list/src/components/Link.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/redux-official-todo-list/src/components/Todo.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/redux-official-todo-list/src/components/TodoList.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/redux-official-todo-list/src/containers/AddTodo.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/redux-official-todo-list/src/containers/FilterLink.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/redux-official-todo-list/src/containers/VisibleTodoList.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/redux-official-todo-list/src/reducers/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/redux-official-todo-list/src/reducers/todos.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/redux-official-todo-list/src/reducers/visibilityFilter.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-    </list>
+    <list default="true" id="299408a7-3daf-4091-9e51-47e74d229951" name="Default" comment="" />
     <ignored path="react-tutorial.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -472,12 +456,12 @@
       <workItem from="1472551474487" duration="1809000" />
       <workItem from="1472553352557" duration="893000" />
       <workItem from="1472588425671" duration="4988000" />
-      <workItem from="1472886676733" duration="4544000" />
+      <workItem from="1472886676733" duration="4728000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12234000" />
+    <option name="totallyTimeSpent" value="12418000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="642" y="23" width="638" height="777" extended-state="0" />
